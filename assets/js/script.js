@@ -32,6 +32,9 @@ particlesJS("particles-js", {
     },
     retina_detect: true
 });
+
+
+
 // Countdown Timer
 const countdownDate = new Date("2025-02-21T00:00:00").getTime();
 
@@ -53,11 +56,14 @@ function updateCountdown() {
 setInterval(updateCountdown, 1000);
 updateCountdown();
 
+
+
 var swiper = new Swiper(".swiper-container", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",
+    initialSlide: 2, // Start from center slide (adjust based on total slides)
     coverflowEffect: {
       rotate: 20,
       stretch: 0,
@@ -65,8 +71,12 @@ var swiper = new Swiper(".swiper-container", {
       modifier: 1,
       slideShadows: true
     },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
     pagination: {
-      el: ".swiper-pagination"
+      el: ".swiper-pagination",
+      clickable: true
     }
-  });
-  
+});
