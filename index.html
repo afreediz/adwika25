@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechFest 2025</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -16,15 +16,15 @@
             <div class="nav-content">
                 <div class="logo">TechFest 2025</div>
                 <div class="nav-links">
-                    <a href="#events">Events</a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
                     <a href="#workshops">Workshops</a>
-                    <a href="#schedule">Schedule</a>
                     <a href="#register">Register</a>
                 </div>
             </div>
         </nav>
 
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="hero-content">
                 <h1>ADWIKA 2025</h1>
                 <p>Experience the Future of Technology</p>
@@ -49,17 +49,15 @@
                 </div>
             </div>
         </section>
-    
 
-        <section class="about-section">
+        <section class="about-section" id="about">
             <div class="about-container">
                 <div class="about-content">
                     <div class="about-text">
                         <h1 class="about-title">About Adwika 2025</h1>
                         <p class="about-subtitle">Where Innovation Meets Excellence</p>
                         <div class="about-description">
-                            <p>TechFest is the annual flagship technical festival of our institute, bringing together the brightest minds and latest innovations in technology. Since its inception, TechFest has grown to become one of the largest technical festivals in Asia.</p>
-                            <p>Join us for two days of cutting-edge workshops, thrilling competitions, inspiring talks, and networking opportunities with industry leaders. Experience the future of technology through interactive exhibitions and demonstrations.</p>
+                            <p>Technology is ever-evolving, constantly reshaping the world around us. At MES College of Engineering and Technology, ADWIKA envisions a platform where young innovators, creators, and tech enthusiasts come together to push the boundaries of possibility. Rooted in the spirit of renaissance this tech fest is more than just an event-it's a movements that blends past wisdom with future breakthroughts. From AI-driven solutions to groundbreaking engineering feasts, ADWIKA challenges students to rethink, reimagine and revolutionize. Through a series of engaging competitions, hands-on workshops, and thought provoking decisions, participants will not only showcase their talents butalsoredefine the role of technology in shaping a better tommorrow. Join us as we embark on this jorney of rediscovery and innovation where ideas are reborn, and the future is forged!</p>
                         </div>
                         <div class="stats-container">
                             <div class="stat-item">
@@ -76,14 +74,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about-image">
+                    <div  data-aos="zoom-out-left" class="about-image">
                         <img src="./assets/images/logo.png" alt="TechFest 2025" class="main-image">
                     </div>
                 </div>
             </div>
         </section>
         
-        <section class="workshops">
+        <section class="workshops" id="workshops">
             <div class="workshops-header">
                 <h1>Technical Workshops</h1>
                 <p>Enhance your skills with hands-on workshops led by industry experts</p>
@@ -141,8 +139,127 @@
             </div>
         </section>
 
-
-
+        <section class="events-container">
+            <div class="events-header">
+                <h1>Featured Events</h1>
+                <p>Showcase your skills and compete with the best in tech</p>
+            </div>
+        
+            <div class="major-events">
+                <div class="major-event-card">
+                    <div class="major-event-image" style="background-image: url('/assets/images/event1.png')">
+                        <div class="major-event-content">
+                            <h3>Hackathon</h3>
+                            <p>48 hours of coding, innovation, and problem-solving</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="major-event-card">
+                    <div class="major-event-image" style="background-image: url('/assets/images/event2.png')">
+                        <div class="major-event-content">
+                            <h3>CTF Challenge</h3>
+                            <p>Test your cybersecurity skills in our flagship CTF event</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="major-event-card">
+                    <div class="major-event-image" style="background-image: url('/assets/images/event3.png')">
+                        <div class="major-event-content">
+                            <h3>AI Summit</h3>
+                            <p>Showcase your AI/ML projects to industry experts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="other-events-grid">
+                <div class="event-category">
+                    <div class="category-header">
+                        <div class="category-icon">🤖</div>
+                        <h3 class="category-title">Robotics</h3>
+                    </div>
+                    <ul class="event-list">
+                        <li>
+                            <span>Robot Wars</span>
+                            <span class="prize-amount">₹50,000</span>
+                        </li>
+                        <li>
+                            <span>Line Follower</span>
+                            <span class="prize-amount">₹20,000</span>
+                        </li>
+                        <li>
+                            <span>Drone Racing</span>
+                            <span class="prize-amount">₹30,000</span>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="event-category">
+                    <div class="category-header">
+                        <div class="category-icon">💻</div>
+                        <h3 class="category-title">Coding</h3>
+                    </div>
+                    <ul class="event-list">
+                        <li>
+                            <span>Code Sprint</span>
+                            <span class="prize-amount">₹40,000</span>
+                        </li>
+                        <li>
+                            <span>Debug Battle</span>
+                            <span class="prize-amount">₹25,000</span>
+                        </li>
+                        <li>
+                            <span>Algorithm Arena</span>
+                            <span class="prize-amount">₹35,000</span>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="event-category">
+                    <div class="category-header">
+                        <div class="category-icon">🎮</div>
+                        <h3 class="category-title">Gaming</h3>
+                    </div>
+                    <ul class="event-list">
+                        <li>
+                            <span>VALORANT</span>
+                            <span class="prize-amount">₹45,000</span>
+                        </li>
+                        <li>
+                            <span>FIFA Tournament</span>
+                            <span class="prize-amount">₹30,000</span>
+                        </li>
+                        <li>
+                            <span>BGMI Squad</span>
+                            <span class="prize-amount">₹40,000</span>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="event-category">
+                    <div class="category-header">
+                        <div class="category-icon">🎨</div>
+                        <h3 class="category-title">Design</h3>
+                    </div>
+                    <ul class="event-list">
+                        <li>
+                            <span>UI/UX Challenge</span>
+                            <span class="prize-amount">₹35,000</span>
+                        </li>
+                        <li>
+                            <span>Logo Design</span>
+                            <span class="prize-amount">₹20,000</span>
+                        </li>
+                        <li>
+                            <span>3D Modeling</span>
+                            <span class="prize-amount">₹30,000</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
         <section class="sponsors-section">
             <div class="geometric-pattern"></div>
@@ -178,170 +295,157 @@
               </div>
             </div>
           </section>
-        
 
-<!-- Slider main container -->
-<section class="swiper-container">
-    <h1 class="events-title">Guests</h1>
+        <!-- Slider main container -->
+        <section class="swiper-container">
+            <h1 class="events-title">Guests</h1>
 
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">
-        <div class="picture">
-          <img src="https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6b4e41a670c097c8fd2834579f5d5958&auto=format&fit=crop&w=633&q=80" alt="">
-        </div>
-        <div class="detail">
-          <h3>Marie Edwards</h3>
-          <span>Web Designer</span>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="picture">
-          <img src="https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=49899e285952107fdfd9415b8d3bf74a&auto=format&fit=crop&w=634&q=80" alt="">
-        </div>
-        <div class="detail">
-          <h3>Kelly Woods</h3>
-          <span>Web Designer</span>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="picture">
-          <img src="https://images.unsplash.com/photo-1502980426475-b83966705988?ixlib=rb-0.3.5&s=739aef35459daa8aaeaa55363d492bc1&auto=format&fit=crop&w=673&q=80" alt="">
-        </div>
-        <div class="detail">
-          <h3>Roger Rice</h3>
-          <span>Web Designer</span>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="picture">
-          <img src="https://images.unsplash.com/photo-1502768040783-423da5fd5fa0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0c6416353c255d2746a68c8a83943bdf&auto=format&fit=crop&w=634&q=80" alt="">
-        </div>
-        <div class="detail">
-          <h3>Jessica Garcia</h3>
-          <span>Web Designer</span>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="picture">
-          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9a138cf8acd85036bd292d7f10074e79&auto=format&fit=crop&w=634&q=80" alt="">
-        </div>
-        <div class="detail">
-          <h3>Sean Adams</h3>
-          <span>Web Designer</span>
-        </div>
-      </div>
-    </div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="picture">
+                <img src="https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6b4e41a670c097c8fd2834579f5d5958&auto=format&fit=crop&w=633&q=80" alt="">
+                </div>
+                <div class="detail">
+                <h3>Marie Edwards</h3>
+                <span>Web Designer</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                <img src="https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=49899e285952107fdfd9415b8d3bf74a&auto=format&fit=crop&w=634&q=80" alt="">
+                </div>
+                <div class="detail">
+                <h3>Kelly Woods</h3>
+                <span>Web Designer</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                <img src="https://images.unsplash.com/photo-1502980426475-b83966705988?ixlib=rb-0.3.5&s=739aef35459daa8aaeaa55363d492bc1&auto=format&fit=crop&w=673&q=80" alt="">
+                </div>
+                <div class="detail">
+                <h3>Roger Rice</h3>
+                <span>Web Designer</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                <img src="https://images.unsplash.com/photo-1502768040783-423da5fd5fa0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0c6416353c255d2746a68c8a83943bdf&auto=format&fit=crop&w=634&q=80" alt="">
+                </div>
+                <div class="detail">
+                <h3>Jessica Garcia</h3>
+                <span>Web Designer</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9a138cf8acd85036bd292d7f10074e79&auto=format&fit=crop&w=634&q=80" alt="">
+                </div>
+                <div class="detail">
+                <h3>Sean Adams</h3>
+                <span>Web Designer</span>
+                </div>
+            </div>
+            </div>
 
-    <!-- Pagination -->
-    <div class="swiper-pagination"></div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
 
-    <!-- Navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
 
-    <!-- Scrollbar -->
-    <div class="swiper-scrollbar"></div>
-</section>
-
+            <!-- Scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </section>
 
 
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-content">
+                    <!-- Logo and Social Section -->
+                    <div class="footer-section">
+                        <h2 class="footer-logo">TechFest 2025</h2>
+                        <p class="footer-tagline">Where Innovation Meets Excellence</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
 
-  <script src="assets/js/script.js"></script>
+                    <!-- Quick Links Section -->
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#workshops">Workshops</a></li>
+                            <li><a href="#schedule">Schedule</a></li>
+                            <li><a href="#register">Register</a></li>
+                        </ul>
+                    </div>
 
-
-  <footer class="footer">
-    <div class="footer-top">
-        <div class="footer-content">
-            <!-- Logo and Social Section -->
-            <div class="footer-section">
-                <h2 class="footer-logo">TechFest 2025</h2>
-                <p class="footer-tagline">Where Innovation Meets Excellence</p>
-                <div class="social-links">
-                    <a href="#" class="social-link">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                        </svg>
-                    </a>
-                    <a href="#" class="social-link">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-                        </svg>
-                    </a>
-                    <a href="#" class="social-link">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                        </svg>
-                    </a>
-                    <a href="#" class="social-link">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                            <rect x="2" y="9" width="4" height="12"></rect>
-                            <circle cx="4" cy="4" r="2"></circle>
-                        </svg>
-                    </a>
+                    <!-- Contact Section -->
+                    <div class="footer-section">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                University Campus, Tech City
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                +91 123 456 7890
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                contact@techfest2025.com
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
-            <!-- Quick Links Section -->
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <ul class="footer-links">
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#workshops">Workshops</a></li>
-                    <li><a href="#schedule">Schedule</a></li>
-                    <li><a href="#register">Register</a></li>
-                </ul>
-            </div>
-
-            <!-- Contact Section -->
-            <div class="footer-section">
-                <h3>Contact Us</h3>
-                <ul class="contact-info">
-                    <li>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                        University Campus, Tech City
-                    </li>
-                    <li>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                        </svg>
-                        +91 123 456 7890
-                    </li>
-                    <li>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                            <polyline points="22,6 12,13 2,6"></polyline>
-                        </svg>
-                        contact@techfest2025.com
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Newsletter Section -->
-            <div class="footer-section">
-                <h3>Stay Updated</h3>
-                <p class="newsletter-text">Subscribe to our newsletter for updates and announcements</p>
-                <div class="newsletter-form">
-                    <input type="email" placeholder="Enter your email" class="newsletter-input">
-                    <button class="newsletter-btn">Subscribe</button>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-content">
+                    <p class="copyright">© 2025 TechFest. All rights reserved.</p>
                 </div>
             </div>
-        </div>
-    </div>
+        </footer>
 
-    <!-- Footer Bottom -->
-    <div class="footer-bottom">
-        <div class="footer-content">
-            <p class="copyright">© 2025 TechFest. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="assets/js/script.js"></script>
 </body>
 </html>
