@@ -56,8 +56,8 @@ function updateCountdown() {
     document.getElementById("seconds").textContent = seconds.toString().padStart(2, '0');
 }
 
-setInterval(updateCountdown, 1000);
-updateCountdown();
+// setInterval(updateCountdown, 1000);
+// updateCountdown();
 
 
 
